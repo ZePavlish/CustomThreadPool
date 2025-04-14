@@ -69,6 +69,7 @@
 
 ## Пример использования
 
+```java
 // Рекомендуемая конфигурация для веб-сервиса
 CustomThreadPool pool = new CustomThreadPool(
     8,                 // corePoolSize
