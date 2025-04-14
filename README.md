@@ -81,6 +81,7 @@ CustomThreadPool pool = new CustomThreadPool(
     null,              // стандартная фабрика потоков
     new CallerRunsPolicy()
 );
+```
 
 Рекомендации по мониторингу
 Отслеживайте:
