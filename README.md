@@ -83,8 +83,8 @@ CustomThreadPool pool = new CustomThreadPool(
 );
 ```
 
-Рекомендации по мониторингу
-Отслеживайте:
+##Рекомендации по мониторингу
+1. Отслеживайте:
 
 Активные потоки vs maxPoolSize
 
@@ -92,7 +92,7 @@ CustomThreadPool pool = new CustomThreadPool(
 
 Частоту отказов
 
-Настраивайте при:
+2. Настраивайте при:
 
 1% отказов в секунду → увеличивайте queueSize или maxPoolSize
 
